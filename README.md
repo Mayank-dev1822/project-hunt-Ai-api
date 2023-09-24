@@ -1,4 +1,4 @@
-# Project Hunt AI
+# Project Hunt AI | API
 Using the power of AI to find the best fit idea for your next project.
 
 ## Installation
