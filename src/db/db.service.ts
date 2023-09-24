@@ -61,7 +61,6 @@ export class DbService {
   public async searchQueryFilter(filters: any) {
     //Fetching all the projects from DB
     const entities = await this.getAllProjects();
-    const test = ['angular', 'php'];
     //Converting filters to lowercase to make the search case-independent
     const lowercaseFilters = filters.map((filter) => filter.toLowerCase());
 
